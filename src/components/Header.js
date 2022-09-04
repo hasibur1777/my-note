@@ -39,13 +39,12 @@ function Header() {
             <div className="d-flex ms-auto my-3 my-lg-0"></div>
             <ul className="navbar-nav">
               <li>
-                <form action="" method="">
-                  <input
-                    type="submit"
-                    value="Logout"
-                    className="btn btn-sm btn-outline-danger"
-                  />
-                </form>
+                <Link
+                  className="btn btn-sm btn-outline-danger"
+                  to={`/`}
+                >
+                  <span>Logout</span>
+                </Link>
               </li>
             </ul>
           </div>
